@@ -451,6 +451,7 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+  font-weight: 500;
 }
 
 .project-btn {
@@ -501,8 +502,13 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
   margin: 0 1rem;
+  background-color: white;
+  border-top: 2px solid #f1f1f1;
 }
 
 footer p {
